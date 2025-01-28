@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1738080727
+icon.svg::CompressedTexture2D::6613172974687172715::1738067478::1738067650::1::::<><>::
+player_ball.gd::GDScript::-1::1738067478::0::1::::<>CharacterBody2D<>::
+player_ball.tscn::PackedScene::481727168811612641::1738080608::0::1::::<><>::res://player_ball.gd<>uid://bmfqpv08n225d::::res://img/golf ball.jpg
+README.md::TextFile::-1::1738067478::0::1::::<><>::
+Spawn Script.tscn::PackedScene::8328487546367892797::1738080727::0::1::::<><>::res://Scripts/Spawning.cs
+::res://img/::1738067650
+golf ball.jpg::CompressedTexture2D::3240008098040923635::1738067478::1738067650::1::::<><>::
+::res://Nodes/::1738080727
+Cube_Object.tscn::PackedScene::6618098238712445473::1738080608::0::1::::<><>::
+::res://Scripts/::1738080690
+Spawning.cs::CSharpScript::-1::1738080690::0::1::::<>Node<>::

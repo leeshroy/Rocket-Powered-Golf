@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddk50v22r4art"]
+
+[ext_resource type="PackedScene" uid="uid://dqwm8c48y6if2" path="res://Nodes/Spawn Script.tscn" id="1_o53ki"]
+
+[node name="Camera3D" type="Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0122501, 0, 2.9792)
+
+[node name="Spawner" parent="." instance=ExtResource("1_o53ki")]
+transform = Transform3D(0.99056, 0, 0, 0, 0.99056, 0, 0, 0, 0.99056, -0.111172, 0.0658898, -8.80274)
+SpawningArea = Vector3(3, 3, 3)

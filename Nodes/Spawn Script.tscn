@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqwm8c48y6if2"]
+
+[ext_resource type="Script" path="res://Scripts/Spawning.cs" id="1_0tcds"]
+[ext_resource type="PackedScene" uid="uid://c1j4d1nx8gja4" path="res://Nodes/Cube_Object.tscn" id="2_j0rui"]
+
+[node name="Spawner" type="Node3D"]
+script = ExtResource("1_0tcds")
+NodeToSpawn = ExtResource("2_j0rui")
+spawnRate = 2.0
