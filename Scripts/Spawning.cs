@@ -8,7 +8,7 @@ public partial class Spawning : Node3D
 	[Export]public float spawnRate = 0.5f; //Spawnrate per Second
 	[Export]public Vector3 SpawningArea;
 	
-	private double _timeSinceLastSpawn = 0;
+	private double _timeSinceLastSpawn = 1000; // So it spawns on the first frame
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{

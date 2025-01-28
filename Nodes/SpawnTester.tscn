@@ -1,10 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://ddk50v22r4art"]
+[gd_scene load_steps=3 format=3 uid="uid://np7gun1h73fw"]
 
-[ext_resource type="PackedScene" uid="uid://dqwm8c48y6if2" path="res://Nodes/Spawn Script.tscn" id="1_o53ki"]
+[ext_resource type="PackedScene" uid="uid://c8rui251nvr0y" path="res://Nodes/Spawn Script.tscn" id="1_o53ki"]
+
+[sub_resource type="Resource" id="Resource_kesoc"]
+metadata/__load_path__ = "res://Nodes/Cube_Object.tscn"
 
 [node name="Camera3D" type="Camera3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0122501, 0, 2.9792)
 
 [node name="Spawner" parent="." instance=ExtResource("1_o53ki")]
 transform = Transform3D(0.99056, 0, 0, 0, 0.99056, 0, 0, 0, 0.99056, -0.111172, 0.0658898, -8.80274)
+NodeToSpawn = SubResource("Resource_kesoc")
 SpawningArea = Vector3(3, 3, 3)

@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 project/assembly_name="Rocket Powered Golf"
 
+[global_group]
+
+Player=""
+
 [input]
 
 forward={

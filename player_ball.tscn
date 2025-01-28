@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bmfqpv08n225d" path="res://img/golf ball.jpg" id="2_jg1jb"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_b7sal"]
-radius = 131.667
+radius = 130.011
 
 [node name="Player_ball" type="CharacterBody2D"]
 position = Vector2(-8, -27)
