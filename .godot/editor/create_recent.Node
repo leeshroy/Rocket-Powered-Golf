@@ -1,7 +1,7 @@
+MeshInstance3D
 Camera3D
 CollisionShape3D
 CharacterBody3D
-MeshInstance3D
 Sprite2D
 CollisionShape2D
 CharacterBody2D

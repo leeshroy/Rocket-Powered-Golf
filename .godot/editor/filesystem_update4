@@ -1,6 +1,7 @@
+res://Scripts/Enemy_Behaviour.gd
 res://Nodes/3d Enemy Test scene.tscn
+res://Scripts/PlayerBehaviour3D.gd
 res://Nodes/SpawnTester.tscn
 res://Nodes/EnemyBehaviour.tscn
-res://Scripts/Enemy_Behaviour.gd
 res://Nodes/Spawn Script.tscn
 res://Scripts/Spawning.cs

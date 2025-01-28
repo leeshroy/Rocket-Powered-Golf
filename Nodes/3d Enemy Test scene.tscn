@@ -1,17 +1,26 @@
-[gd_scene load_steps=4 format=3 uid="uid://ddegns1rdigf1"]
+[gd_scene load_steps=6 format=3 uid="uid://ddegns1rdigf1"]
 
 [ext_resource type="PackedScene" uid="uid://b2dwulnnlqs60" path="res://Nodes/EnemyBehaviour.tscn" id="1_eqp1a"]
 [ext_resource type="PackedScene" uid="uid://c8rui251nvr0y" path="res://Nodes/Spawn Script.tscn" id="1_fxeyu"]
+[ext_resource type="Script" path="res://Scripts/PlayerBehaviour3D.gd" id="1_oikf8"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_td3la"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_36qwa"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="Player" type="CharacterBody3D" parent="." groups=["Player"]]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.30416, 0, 0)
+transform = Transform3D(0.197878, 0, 0, 0, 0.197878, 0, 0, 0, 0.197878, -0.124263, -0.086169, 0.00273252)
+script = ExtResource("1_oikf8")
+distance = 3
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
 shape = SubResource("BoxShape3D_td3la")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00174916, 0.00711256, 0.00435111)
+mesh = SubResource("BoxMesh_36qwa")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2, 0, 0)

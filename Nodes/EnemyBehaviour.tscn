@@ -9,7 +9,7 @@
 [node name="Enemy" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 0.999316, 0.0369925, 0, -0.0369925, 0.999316, 28.9571, 14.8538, -14.7286)
 script = ExtResource("1_fqvya")
-distanceFromCamera = 2
+distanceFromCamera = 1.25
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_ufqcs")
