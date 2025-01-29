@@ -1,5 +1,7 @@
-MeshInstance3D
+DirectionalLight3D
 Camera3D
+WorldEnvironment
+MeshInstance3D
 CollisionShape3D
 CharacterBody3D
 Sprite2D

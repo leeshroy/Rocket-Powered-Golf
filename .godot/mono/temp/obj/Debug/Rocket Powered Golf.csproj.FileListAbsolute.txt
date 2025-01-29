@@ -16,3 +16,21 @@ D:\Godot Projects\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\refint\Rocket P
 D:\Godot Projects\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.pdb
 D:\Godot Projects\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.genruntimeconfig.cache
 D:\Godot Projects\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\ref\Rocket Powered Golf.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\Rocket Powered Golf.deps.json
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\Rocket Powered Golf.runtimeconfig.json
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\Rocket Powered Golf.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\Rocket Powered Golf.pdb
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.csproj.AssemblyReference.cache
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.GeneratedMSBuildEditorConfig.editorconfig
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.AssemblyInfoInputs.cache
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.AssemblyInfo.cs
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.csproj.CoreCompileInputs.cache
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.sourcelink.json
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket P.D8D3799D.Up2Date
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\refint\Rocket Powered Golf.dll
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.pdb
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\Rocket Powered Golf.genruntimeconfig.cache
+C:\RPG\Rocket-Powered-Golf\.godot\mono\temp\obj\Debug\ref\Rocket Powered Golf.dll

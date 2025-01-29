@@ -1,0 +1,69 @@
+[gd_scene load_steps=8 format=3 uid="uid://brq0vk2q8nqsw"]
+
+[ext_resource type="PackedScene" uid="uid://twreean73o6f" path="res://ASSETS/MODELS/Bird_model.glb" id="1_3h4gi"]
+[ext_resource type="Texture2D" uid="uid://c7hmj36w6i3b5" path="res://ASSETS/MODELS/Bird_model_deHaht.png" id="2_aafcm"]
+[ext_resource type="Shader" path="res://Nodes/Outline.gdshader" id="3_08u4u"]
+[ext_resource type="Script" path="res://Nodes/bird_model.gd" id="4_10fav"]
+[ext_resource type="Script" path="res://Nodes/bird_animation_player.gd" id="5_xnc6d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x071g"]
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("2_aafcm")
+roughness = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xc4qb"]
+render_priority = 0
+shader = ExtResource("3_08u4u")
+shader_parameter/outline_color = null
+shader_parameter/outline_size = 0.035
+
+[node name="Bird_model2" instance=ExtResource("1_3h4gi")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/0/position = Vector3(-8.95761e-08, 0.878928, -0.479705)
+bones/0/rotation = Quaternion(-0.47974, 0.520676, 0.478449, -0.519454)
+bones/1/rotation = Quaternion(-0.000217063, -0.000187188, 0.0497587, 0.998761)
+bones/2/rotation = Quaternion(0.000601523, -0.000380049, -0.0230492, 0.999734)
+bones/3/rotation = Quaternion(-0.000997816, -0.000382781, 0.358301, 0.933605)
+bones/4/rotation = Quaternion(-0.00201287, 0.00117492, -0.520595, 0.853801)
+bones/5/rotation = Quaternion(0.00181104, -0.00698527, 0.931799, -0.362902)
+bones/6/rotation = Quaternion(-0.003551, -0.00213599, 0.507815, 0.861457)
+bones/7/rotation = Quaternion(-0.11208, -0.478886, -0.491761, 0.718525)
+bones/8/rotation = Quaternion(0.495843, 0.715519, 0.10615, -0.480525)
+bones/9/rotation = Quaternion(0.452048, -0.604794, -0.388369, 0.528248)
+bones/10/rotation = Quaternion(-0.389879, -0.527806, 0.452983, 0.603507)
+bones/11/rotation = Quaternion(0.885244, 0.0288868, -0.100165, -0.453294)
+bones/12/rotation = Quaternion(0.183163, -0.00328197, -0.157314, 0.970409)
+bones/13/rotation = Quaternion(-0.024156, -0.00334175, 0.0781304, 0.996645)
+bones/14/rotation = Quaternion(-0.0143887, -0.0137907, 0.207227, 0.97809)
+bones/15/rotation = Quaternion(0.00284299, -0.0106401, 0.201352, 0.979457)
+bones/16/rotation = Quaternion(-0.0984045, 0.459066, 0.88236, -0.0318766)
+bones/17/rotation = Quaternion(0.200245, 0.00597643, 0.15737, 0.967006)
+bones/18/rotation = Quaternion(0.00629467, 0.000733467, -0.0789206, 0.996861)
+bones/19/rotation = Quaternion(0.0251178, 0.00283186, -0.208775, 0.977637)
+bones/20/rotation = Quaternion(0.0297761, 0.00193253, -0.204737, 0.978362)
+bones/21/rotation = Quaternion(0.371517, 0.0566858, -0.486274, 0.78886)
+bones/22/rotation = Quaternion(-0.00547641, -0.0668873, -0.4357, 0.897587)
+bones/23/rotation = Quaternion(0.159684, 0.0147837, -0.172538, 0.971861)
+bones/24/rotation = Quaternion(-0.244184, -0.0684945, 0.361765, 0.897112)
+bones/25/rotation = Quaternion(0.493435, 0.795174, -0.346112, 0.0665256)
+bones/26/rotation = Quaternion(-0.0924216, 0.105997, 0.477293, 0.867418)
+bones/27/rotation = Quaternion(0.11376, 0.0379326, 0.211777, 0.969933)
+bones/28/rotation = Quaternion(-0.301266, -0.0499297, -0.325455, 0.894888)
+bones/29/position = Vector3(0.133796, 0.878928, -0.43985)
+bones/29/rotation = Quaternion(-0.636805, -0.259613, -0.206134, 0.696125)
+bones/30/position = Vector3(-0.133796, 0.878928, -0.43985)
+bones/30/rotation = Quaternion(-0.636804, 0.259614, 0.206134, 0.696125)
+bones/31/position = Vector3(-1.60589e-07, 0.878928, -0.479704)
+bones/31/rotation = Quaternion(-0.602684, -0.196428, -0.15729, 0.757263)
+bones/32/position = Vector3(1.60589e-07, 0.878928, -0.479704)
+bones/32/rotation = Quaternion(-0.602684, 0.196428, 0.15729, 0.757263)
+
+[node name="Bird_model" parent="Armature/Skeleton3D" index="0"]
+material_override = SubResource("StandardMaterial3D_x071g")
+material_overlay = SubResource("ShaderMaterial_xc4qb")
+script = ExtResource("4_10fav")
+
+[node name="AnimationPlayer" parent="." index="1"]
+script = ExtResource("5_xnc6d")
