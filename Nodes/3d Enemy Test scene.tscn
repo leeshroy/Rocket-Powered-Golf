@@ -1,12 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://ddegns1rdigf1"]
+[gd_scene load_steps=9 format=3 uid="uid://ddegns1rdigf1"]
 
 [ext_resource type="PackedScene" uid="uid://b2dwulnnlqs60" path="res://Nodes/EnemyBehaviour.tscn" id="1_eqp1a"]
 [ext_resource type="PackedScene" uid="uid://c8rui251nvr0y" path="res://Nodes/Spawn Script.tscn" id="1_fxeyu"]
 [ext_resource type="Script" path="res://Scripts/PlayerBehaviour3D.gd" id="1_oikf8"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_td3la"]
+size = Vector3(1, 1, 272.85)
 
 [sub_resource type="BoxMesh" id="BoxMesh_36qwa"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_e7nys"]
+sky_top_color = Color(0, 0.481398, 0.696737, 1)
+sky_horizon_color = Color(0.731347, 0.644387, 0.471478, 1)
+
+[sub_resource type="Sky" id="Sky_pis2x"]
+sky_material = SubResource("ProceduralSkyMaterial_e7nys")
+
+[sub_resource type="Environment" id="Environment_ij1no"]
+background_mode = 2
+sky = SubResource("Sky_pis2x")
 
 [node name="Node3D" type="Node3D"]
 
@@ -30,3 +42,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4432, 0, -0.120401)
 NodeToSpawn = ExtResource("1_eqp1a")
 spawnRate = 1.0
 SpawningArea = Vector3(0, 10, 20)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ij1no")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="WorldEnvironment"]
+transform = Transform3D(0.900842, 0.074426, 0.42772, -0.434147, 0.154432, 0.887506, 0, -0.985196, 0.17143, 0, 0, 0)

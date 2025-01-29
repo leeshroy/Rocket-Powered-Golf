@@ -6,12 +6,12 @@
 sky_top_color = Color(0, 0.481398, 0.696737, 1)
 sky_horizon_color = Color(0.731347, 0.644387, 0.471478, 1)
 
-[sub_resource type="Sky" id="Sky_pis2x"]
+[sub_resource type="Sky" id="Sky_75jt3"]
 sky_material = SubResource("ProceduralSkyMaterial_em72m")
 
 [sub_resource type="Environment" id="Environment_d8asw"]
 background_mode = 2
-sky = SubResource("Sky_pis2x")
+sky = SubResource("Sky_75jt3")
 
 [node name="Node3D" type="Node3D"]
 

@@ -44,4 +44,6 @@ func updateViewportSize() -> void:
 func _process(delta: float) -> void:
 	var mousepos = get_viewport().get_mouse_position() / viewportSize
 	global_position = Vector3(0,-height * mousepos.y + height * 0.5 ,width * mousepos.x - width * 0.5) + cam.global_position + -cam.transform.basis.z * distance
+	
+	look_at(cam.global_position)
 	#global_position = cam.global_position + -cam.transform.basis.z * distance
