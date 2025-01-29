@@ -20,13 +20,14 @@ func _process(delta: float) -> void:
 
 	if colllisionInfo && colllisionInfo.get_collider().is_in_group("Player"):
 		print("ABGFEFANGE")
-		free()
-		return
+		find_child("AnimationPlayer").play("DIE")
+		await get_tree().create_timer(0.6).timeout
+		queue_free()
 
 	var distFromTarget = (global_position - target.position).length()
 	if distFromTarget < distanceFromCamera:
 		print("Reached Player")
-		free()
+		queue_free()
 		
 	
 		

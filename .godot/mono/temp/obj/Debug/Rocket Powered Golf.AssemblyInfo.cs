@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rocket Powered Golf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8ec16e1079b5dc6c5acf24a963b598f2a36693e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aba2b93359e255451494d484139ba943b4f705a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rocket Powered Golf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rocket Powered Golf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
