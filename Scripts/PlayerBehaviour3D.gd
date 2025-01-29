@@ -2,6 +2,9 @@ extends Node3D
 
 var cam
 @export var distance = 5
+@export var followspeed = 5
+
+
 
 var viewportSize
 var width
@@ -43,7 +46,18 @@ func updateViewportSize() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	var mousepos = get_viewport().get_mouse_position() / viewportSize
-	global_position = Vector3(0,-height * mousepos.y + height * 0.5 ,width * mousepos.x - width * 0.5) + cam.global_position + -cam.transform.basis.z * distance
 	
+	
+	var targetPosition = Vector3(0,-height * mousepos.y + height * 0.5 ,width * mousepos.x - width * 0.5) + cam.global_position + -cam.transform.basis.z * distance
+	var distfromTarget = (global_position - targetPosition).length()
+	if distfromTarget <  0.1:
+		return
+	var movementVector = (targetPosition- global_position).normalized()
+	var mouseMultiplier = 1
+	if distfromTarget < 4: 
+		mouseMultiplier -= clamp( 1/distfromTarget * 0.4,0,0.9)
+		print(mouseMultiplier)
+	global_position += movementVector * delta * followspeed * mouseMultiplier
+
 	look_at(cam.global_position)
 	#global_position = cam.global_position + -cam.transform.basis.z * distance

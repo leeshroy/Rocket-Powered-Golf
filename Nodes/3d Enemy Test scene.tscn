@@ -23,9 +23,10 @@ sky = SubResource("Sky_pis2x")
 [node name="Node3D" type="Node3D"]
 
 [node name="Player" type="CharacterBody3D" parent="." groups=["Player"]]
-transform = Transform3D(0.197878, 0, 0, 0, 0.197878, 0, 0, 0, 0.197878, -0.124263, -0.086169, 0.00273252)
+transform = Transform3D(0.197878, 0, 0, 0, 0.197878, 0, 0, 0, 0.197878, -0.096513, 0.112952, 0.280176)
 script = ExtResource("1_oikf8")
 distance = 3
+followspeed = 3
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
 shape = SubResource("BoxShape3D_td3la")

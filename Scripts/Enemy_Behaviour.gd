@@ -8,6 +8,7 @@ var target : Node3D
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	target = get_viewport().get_camera_3d()
+	look_at(target.global_position)
 
 
 
