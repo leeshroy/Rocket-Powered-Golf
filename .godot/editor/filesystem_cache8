@@ -1,26 +1,42 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738176222
-icon.svg::CompressedTexture2D::6613172974687172715::1738067478::1738176223::1::::<><>::
-player_ball.gd::GDScript::-1::1738067478::0::1::::<>CharacterBody2D<>::
-player_ball.tscn::PackedScene::481727168811612641::1738086002::0::1::::<><>::res://player_ball.gd<>uid://bmfqpv08n225d::::res://img/golf ball.jpg
-README.md::TextFile::-1::1738067478::0::1::::<><>::
-::res://ASSETS/::1738175267
-::res://ASSETS/MODELS/::1738175267
-Bird_model.glb::PackedScene::1380043882492521435::1738175267::1738176224::1::::<><>::uid://c7hmj36w6i3b5::::res://ASSETS/MODELS/Bird_model_deHaht.png
-Bird_model_deHaht.png::CompressedTexture2D::7034081203724092000::1738175267::1738176223::1::::<><>::
-::res://img/::1738067650
-golf ball.jpg::CompressedTexture2D::3240008098040923635::1738067478::1738176223::1::::<><>::
-::res://Nodes/::1738175267
-3d Enemy Test scene.tscn::PackedScene::7378474596648952044::1738099227::0::1::::<><>::uid://b2dwulnnlqs60::::res://Nodes/EnemyBehaviour.tscn<>uid://c8rui251nvr0y::::res://Nodes/Spawn Script.tscn<>res://Scripts/PlayerBehaviour3D.gd
-bird.tscn::PackedScene::3614217063810589042::1738175267::0::1::::<><>::uid://twreean73o6f::::res://ASSETS/MODELS/Bird_model.glb<>uid://c7hmj36w6i3b5::::res://ASSETS/MODELS/Bird_model_deHaht.png<>res://Nodes/Outline.gdshader<>res://Nodes/bird_model.gd<>res://Nodes/bird_animation_player.gd
-bird_animation_player.gd::GDScript::-1::1738175267::0::1::::<>AnimationPlayer<>::
-bird_model.gd::GDScript::-1::1738175267::0::1::::<>MeshInstance3D<>::
-EnemyBehaviour.tscn::PackedScene::4289084683346434831::1738099226::0::1::::<><>::res://Scripts/Enemy_Behaviour.gd
-Outline.gdshader::Shader::-1::1738175267::0::1::::<><>::
-Spawn Script.tscn::PackedScene::7125397721140981094::1738099227::0::1::::<><>::res://Scripts/Spawning.cs
-SpawnTester.tscn::PackedScene::945375363878699808::1738099226::0::1::::<><>::uid://c8rui251nvr0y::::res://Nodes/Spawn Script.tscn
-WORLD.tscn::PackedScene::4623557421938376006::1738175267::0::1::::<><>::uid://brq0vk2q8nqsw::::res://Nodes/bird.tscn
-::res://Scripts/::1738097983
-Enemy_Behaviour.gd::GDScript::-1::1738099211::0::1::::<>CharacterBody3D<>::
-PlayerBehaviour3D.gd::GDScript::-1::1738098838::0::1::::<>Node3D<>::
-Spawning.cs::CSharpScript::-1::1738090954::0::1::::<>Node3D<>::
+::res://::1738186422
+icon.svg::CompressedTexture2D::6613172974687172715::1738164115::1738186087::1::::<><>::
+player_ball.gd::GDScript::-1::1738164115::0::1::::<>CharacterBody2D<>::
+player_ball.tscn::PackedScene::481727168811612641::1738164115::0::1::::<><>::res://player_ball.gd<>uid://bmfqpv08n225d::::res://img/golf ball.jpg
+README.md::TextFile::-1::1738164115::0::1::::<><>::
+::res://ASSETS/::1738164191
+::res://ASSETS/MODELS/::1738186088
+Bird_model.glb::PackedScene::1380043882492521435::1738164218::1738186088::1::::<><>::uid://c7hmj36w6i3b5::::res://ASSETS/MODELS/Bird_model_deHaht.png
+Bird_model_deHaht.png::CompressedTexture2D::7034081203724092000::1738164223::1738186088::1::::<><>::
+::res://img/::1738186088
+golf ball.jpg::CompressedTexture2D::3240008098040923635::1738164115::1738186088::1::::<><>::
+::res://Nodes/::1738183338
+3d Enemy Test scene.tscn::PackedScene::7378474596648952044::1738182866::0::1::::<><>::uid://b2dwulnnlqs60::::res://Nodes/EnemyBehaviour.tscn<>uid://c8rui251nvr0y::::res://Nodes/Spawn Script.tscn<>res://Scripts/PlayerBehaviour3D.gd
+bird.tscn::PackedScene::3614217063810589042::1738183338::0::1::::<><>::uid://twreean73o6f::::res://ASSETS/MODELS/Bird_model.glb<>uid://c7hmj36w6i3b5::::res://ASSETS/MODELS/Bird_model_deHaht.png<>res://Nodes/Outline.gdshader<>res://Nodes/bird_model.gd<>res://Nodes/bird_animation_player.gd
+bird_animation_player.gd::GDScript::-1::1738164563::0::1::::<>AnimationPlayer<>::
+bird_model.gd::GDScript::-1::1738164486::0::1::::<>MeshInstance3D<>::
+EnemyBehaviour.tscn::PackedScene::4289084683346434831::1738183338::0::1::::<><>::res://Scripts/Enemy_Behaviour.gd<>uid://brq0vk2q8nqsw::::res://Nodes/bird.tscn
+Outline.gdshader::Shader::-1::1738164640::0::1::::<><>::
+Spawn Script.tscn::PackedScene::7125397721140981094::1738164625::0::1::::<><>::res://Scripts/Spawning.cs
+SpawnTester.tscn::PackedScene::945375363878699808::1738164625::0::1::::<><>::uid://c8rui251nvr0y::::res://Nodes/Spawn Script.tscn
+WORLD.tscn::PackedScene::4623557421938376006::1738182866::0::1::::<><>::uid://brq0vk2q8nqsw::::res://Nodes/bird.tscn
+::res://Scripts/::1738183338
+Enemy_Behaviour.gd::GDScript::-1::1738183338::0::1::::<>CharacterBody3D<>::
+PlayerBehaviour3D.gd::GDScript::-1::1738182866::0::1::::<>Node3D<>::
+Spawning.cs::CSharpScript::-1::1738164115::0::1::::<>Node3D<>::
+::res://TEMPLATE/::1738186426
+::res://TEMPLATE/assets/::1738186426
+::res://TEMPLATE/assets/hdris/::1738186426
+kloofendal_48d_partly_cloudy_puresky_2k.hdr::CompressedTexture2D::1269733906213135395::1738186426::1738186436::1::::<><>::
+::res://TEMPLATE/assets/textures/::1738186426
+::res://TEMPLATE/assets/textures/dev/::1738186426
+::res://TEMPLATE/assets/textures/dev/grids/::1738186426
+::res://TEMPLATE/assets/textures/dev/grids/Dark/::1738186426
+texture_07.png::CompressedTexture2D::960256224773403261::1738186426::1738186426::1::::<><>::
+::res://TEMPLATE/assets/textures/dev/grids/Orange/::1738186426
+texture_05.png::CompressedTexture2D::221177165388359405::1738186426::1738186426::1::::<><>::
+::res://TEMPLATE/scenes/::1738186426
+player.tscn::PackedScene::718542138947376649::1738186426::0::1::::<><>::res://scripts/player.gd
+world.tscn::PackedScene::6546365893821010311::1738186426::0::1::::<><>::uid://sdcljx8f5dhj::::res://assets/hdris/kloofendal_48d_partly_cloudy_puresky_2k.hdr<>uid://nxfjrmnbay4t::::res://assets/textures/dev/grids/Dark/texture_07.png<>uid://kicjwmh02uwf::::res://scenes/player.tscn
+::res://TEMPLATE/scripts/::1738186426
+player.gd::GDScript::-1::1738186426::0::1::::<>CharacterBody3D<>::

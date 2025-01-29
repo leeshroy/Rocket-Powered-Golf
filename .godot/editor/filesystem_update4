@@ -1,7 +1,5 @@
 res://Nodes/bird_animation_player.gd
-res://Nodes/bird_model.gd
-res://Scripts/Enemy_Behaviour.gd
-res://Scripts/PlayerBehaviour3D.gd
+res://TEMPLATE/scenes/player.tscn
 res://Nodes/SpawnTester.tscn
 res://Nodes/Outline.gdshader
 res://Nodes/EnemyBehaviour.tscn
@@ -9,4 +7,7 @@ res://Nodes/3d Enemy Test scene.tscn
 res://Nodes/Spawn Script.tscn
 res://Nodes/WORLD.tscn
 res://Nodes/bird.tscn
+res://TEMPLATE/scenes/world.tscn
 res://Scripts/Spawning.cs
+res://TEMPLATE/scripts/player.gd
+res://TEMPLATE/scenes/player_control.gd

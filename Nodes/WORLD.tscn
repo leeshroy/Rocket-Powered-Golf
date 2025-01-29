@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://b64xkyn1bixtu"]
+[gd_scene load_steps=6 format=3 uid="uid://b64xkyn1bixtu"]
 
 [ext_resource type="PackedScene" uid="uid://brq0vk2q8nqsw" path="res://Nodes/bird.tscn" id="1_k24iu"]
+[ext_resource type="PackedScene" uid="uid://kicjwmh02uwf" path="res://TEMPLATE/scenes/player.tscn" id="2_xgkid"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_em72m"]
 sky_top_color = Color(0, 0.481398, 0.696737, 1)
@@ -38,5 +39,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.41136, 2.98688, 0)
 [node name="Bird_model7" parent="." instance=ExtResource("1_k24iu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.58864, 2.98688, 0)
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.44622, 6.29158)
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.62155, 0, 15.7521)
+use_collision = true
+size = Vector3(70.6491, 1, 101.891)
+
+[node name="Player" parent="." instance=ExtResource("2_xgkid")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.49928, 3.03589, -9.09984)
